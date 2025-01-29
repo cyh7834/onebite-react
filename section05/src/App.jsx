@@ -1,6 +1,5 @@
 import './App.css'
-import Bulb from './components/Bulb'
-import Counter from './components/Counter'
+import Register from './components/Register'
 
 // 1. 자신이 관리하는 state가 변경 되었을 때
 // 2. 자신이 관리하는 props가 변경 되었을 때
@@ -10,8 +9,7 @@ import Counter from './components/Counter'
 function App() {
   return (
     <>
-    <Bulb></Bulb>
-    <Counter></Counter>
+      <Register></Register>
     </>
   )
 }
