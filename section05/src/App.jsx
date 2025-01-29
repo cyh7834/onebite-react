@@ -1,5 +1,5 @@
 import './App.css'
-import Register from './components/Register'
+import HookExam from './components/HookExam'
 
 // 1. 자신이 관리하는 state가 변경 되었을 때
 // 2. 자신이 관리하는 props가 변경 되었을 때
@@ -9,7 +9,7 @@ import Register from './components/Register'
 function App() {
   return (
     <>
-      <Register></Register>
+      <HookExam></HookExam>
     </>
   )
 }
